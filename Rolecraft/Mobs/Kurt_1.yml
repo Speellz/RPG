@@ -1,0 +1,10 @@
+name: Kurt
+entity-type: WOLF
+level: 1
+hitpoints: 10
+defense: 0
+damage: 2
+aggressive: false
+pet: false
+experience: 6%1-2
+extra-spawn-time: 0

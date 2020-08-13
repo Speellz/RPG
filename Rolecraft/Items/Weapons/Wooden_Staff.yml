@@ -1,0 +1,7 @@
+material: STICK
+damage: 3
+min-level: 0
+class-type: Mage
+item-effects:
+  VIT: 1
+  INT: 5

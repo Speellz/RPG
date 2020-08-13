@@ -1,0 +1,59 @@
+#Decide if the plugin should search for new updates.
+#There will be no auto-download of new updates.
+enable-update-check: true
+#Choose a language (en, de, ru, es etc)
+lang: en
+#You can choose every material you like (e.g. GOLD_NUGGETS, IRON_INGOT)
+currency: EMERALD
+#Chat format: %PLAYER%, %MESSAGE%, %GROUP%, %CLASS%, %LEVEL%
+#Leave it blank or set to none if you dont want to use it
+chat-format: '&9[&9%CLASS%&9]&8[&2%PLAYER% &6%LEVEL%&8]&f: %MESSAGE%'
+#Set the default class, players are assigned on first join
+default-class: Warrior
+#The maximum level players can reach. -1 for no maximum level.
+max-level: -1
+#Instead of droping items, chests will spawn on death
+#Decide if a player loses his inventory on death or not
+keep-inventory: true
+enable-loot-chest: true
+#The time after droped items/chests will be removed (in seconds)
+remove-item-delay: 120
+#Disables the durability bar ONLY of custom items
+disable-durability: false
+#Rolecraft will not touch these worlds
+disable-worlds:
+- world_nether
+- world_the_end
+#Decide if you like to have a small firework on level up and death
+firework: true
+#How much percent of experience player lose on death
+exp-loss-on-death: 25
+#If you do not enable spells, players will not be able to use them
+enable-spells: true
+#The time between death and respawn of mobs (in seconds)
+#You can set a additional individual amount of time in the mob file
+mob-spawn-time: 15
+#Disable natural spawn of the usual minecraft mobs in given world
+disable-natural-spawn:
+  world: false
+  world_nether: false
+  world_the_end: false
+#Player with mtaching level will be moved into these groups
+#ignore: names of the players who should not be moved
+group-assignment:
+  ignore: caliog,DrBaron,Syrios
+  Default: 1
+  Builder: 5
+#If this is false, Rolecraft will install (by command or reload)
+#the Mobs&Items Creator which allows you to create custom mobs & items
+disable-mic: false
+#If you this is enabled, Rolecraft will extract the SpellCollection
+#It contains usefull standard spells for Rolecraft
+enable-spell-collection: true
+#The maximum amount of backups in your Backup folder
+max-backups: 20
+#Automatically backup after this time (in minutes)
+#Set to zero if you do not want automatic backups
+backup-time: 60
+#Allows custom error logging which may help improving the plugin
+enable-debugging: true

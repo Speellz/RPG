@@ -1,0 +1,12 @@
+name: TripleShot
+min-level: 1
+max-power: 60
+damage:
+  '1': 1
+  '5': 2
+  '10': 3
+  '15': 4
+  '30': 5
+  '60': 6
+defense:
+  '1': 0

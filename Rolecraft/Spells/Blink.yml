@@ -1,0 +1,7 @@
+name: Blink
+min-level: 1
+max-power: 50
+damage:
+  '1': 0
+defense:
+  '1': 0
